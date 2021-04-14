@@ -1,12 +1,11 @@
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("static");
 
-    eleventyConfig.addPassthroughCopy("static");
-
-    // You can return your Config object (optional).
-    return {
-      dir: {
-        input: "src",
-        output: "dist"
-      }
-    };
+  // You can return your Config object (optional).
+  return {
+    dir: {
+      input: "src",
+      output: "dist",
+    },
   };
+};
