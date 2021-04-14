@@ -1,0 +1,10 @@
+{
+  "name": "11tytemplate",
+  "version": "1.0.0",
+  "description": "Template for 11ty site.",
+  "author": "yavko",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
